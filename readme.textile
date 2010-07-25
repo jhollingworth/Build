@@ -12,8 +12,8 @@ end
 h1. Main tasks it performs
 
 * clean
-	* clean output 
-	* set up iis sites + app pools
+** clean output 
+** set up iis sites + app pools
 * compile
 ** tokenize configs
 ** msbuild
