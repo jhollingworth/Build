@@ -1,0 +1,28 @@
+h1. Build system 
+
+Simple rake task which performs a standardised set of build tasks (from Albacore)
+
+<pre>
+build do |b|
+	b.solution = 'foo.sln'
+	b.application_type = :website
+end
+</pre>
+
+h1. Main tasks it performs
+
+* clean
+* compile
+** tokenize configs
+** msbuild
+* test
+** unit test
+** mspec
+** stylecop (todo)
+* publish 
+** robocopy 
+** verify deploy (todo)
+* analyze
+** code coverage (todo)
+** ndepend (todo)
+** page speed (todo)
