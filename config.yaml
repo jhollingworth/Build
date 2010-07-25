@@ -1,0 +1,4 @@
+destination:
+    test:    c:/temp/test
+    staging:    c:/temp/staging
+    live:   c:/temp/live
